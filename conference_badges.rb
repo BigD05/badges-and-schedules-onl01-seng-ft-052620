@@ -20,7 +20,7 @@ end
 
 def printer(atendees)
   
-  attendees.each do |name|
+  attendees.map do |name|
     puts batch_badge_creator
     puts assign_rooms
     return "Hello, #{name} you are assigned to room number #{num}"
