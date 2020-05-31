@@ -18,7 +18,8 @@ def assign_rooms(attendees)
      room_assignments
 end
 
-def printer(atendees="name")
+def printer(room_assignments)
+  room_assignments.each_with_index
     puts batch_badge_creator
     puts assign_rooms
     return "Hello, #{name} you are assigned to room number #{num}"
