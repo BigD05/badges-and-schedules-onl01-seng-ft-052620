@@ -18,10 +18,7 @@ def assign_rooms(attendees)
      room_assignments
 end
 
-def printer(room_assignments)
-  room_assignments.each_with_index |name,num|
-  
-end
+def printer(attendees)
  puts batch_badge_creator
-    puts assign_rooms
+    puts room_assignments
 end
