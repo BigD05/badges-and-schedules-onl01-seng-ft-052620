@@ -19,8 +19,6 @@ def assign_rooms(attendees)
 end
 
 def printer(atendees)
-  
-  attendees.map do |name|
     puts batch_badge_creator
     puts assign_rooms
     return "Hello, #{name} you are assigned to room number #{num}"
