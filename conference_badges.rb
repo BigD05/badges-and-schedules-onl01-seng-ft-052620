@@ -22,5 +22,5 @@ def printer(atendees)
     puts batch_badge_creator
     puts assign_rooms
     return "Hello, #{name} you are assigned to room number #{num}"
-end
+
 end
